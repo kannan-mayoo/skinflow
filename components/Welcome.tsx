@@ -2,7 +2,7 @@
 
 export default function Welcome() {
   return (
-    <div className="border-t border-b border-gray-200">
+    <div className="border-t border-b border-gray-300">
         <div className="relative  py-16 bg-white mt-24 text-center space-y-6">
           <h1 className="text-4xl md:text-6xl font-semibold tracking-tight">
             Welcome to {" "} <span className="  bg-linear-to-r from-pink-500 to-rose-500 bg-clip-text text-transparent relative after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[3px] after:bg-pink-400 after:rounded-full">Skinflow</span>

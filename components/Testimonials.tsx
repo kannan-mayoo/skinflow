@@ -79,7 +79,7 @@ export default function Testimonials() {
               viewport={{ once: true }}
               className="bg-white rounded-3xl shadow-sm hover:shadow-md hover:-translate-y-2 transition-all duration-300 p-8 flex flex-col items-center"
             >
-              <Quote className="text-yellow-500 w-8 h-8 " />
+              <Quote className="text-yellow-500 mb-5 w-8 h-8 " />
               <div className="relative w-20 h-20 mb-4" key={item.id}>
                 {/* {item.rating && (
                 <div className="flex justify-center mb-4">
@@ -88,24 +88,24 @@ export default function Testimonials() {
                   ))}
                 </div>
               )} */}
-                {/* <Image
+                <Image
                   src={item.image}
                   alt={item.name}
                   fill
                   className="object-cover rounded-full"
-                /> */}
+                />
                 {/* <p>{item.name}</p> */}
               </div>
               <p className="text-gray-600 italic border-b border-gray-300 py-6 mb-6">“{item.quote}”</p>
               <div className="flex items-center space-x-3 mt-4">
                 
-                <Image
+                {/* <Image
                   src={item.image}
                   alt={item.name}
                   width={70}
                   height={70}
                   className="object-cover rounded-full"
-                />
+                /> */}
               <div>             <h4 className="text-lg font-semibold text-gray-800">
                 {item.name}
               </h4>
