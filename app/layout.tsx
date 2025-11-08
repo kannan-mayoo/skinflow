@@ -36,7 +36,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <main className="min-h-screen flex flex-col items-center justify-start px-4 md:px-8 lg:px-16">
+        <main className="min-h-screen flex flex-col items-center bg-white 9 justify-start px-4 md:px-8 lg:px-16">
           <Header />
           <Hero />
           {/* <BannerSlider /> */}
